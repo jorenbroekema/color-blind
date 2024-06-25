@@ -1,14 +1,6 @@
-# color-blind
+# color-blind-esm
 
-[![NPM version](https://badge.fury.io/js/color-blind.svg)](http://badge.fury.io/js/color-blind)
-[![Build Status](https://travis-ci.org/skratchdot/color-blind.png?branch=master)](https://travis-ci.org/skratchdot/color-blind)
-[![Code Climate](https://codeclimate.com/github/skratchdot/color-blind.png)](https://codeclimate.com/github/skratchdot/color-blind)
-[![Coverage Status](https://coveralls.io/repos/skratchdot/color-blind/badge.png)](https://coveralls.io/r/skratchdot/color-blind)
-[![Dependency Status](https://david-dm.org/skratchdot/color-blind.svg)](https://david-dm.org/skratchdot/color-blind)
-[![devDependency Status](https://david-dm.org/skratchdot/color-blind/dev-status.svg)](https://david-dm.org/skratchdot/color-blind#info=devDependencies)
-
-[![NPM](https://nodei.co/npm/color-blind.png)](https://npmjs.org/package/color-blind)
-
+> ESM fork of color-blind, using colorjs.io instead of onecolor.
 
 ## Description
 
@@ -22,10 +14,9 @@ See [Links](https://github.com/skratchdot/color-blind#links) for more informatio
 Install the module with: `npm install color-blind`
 
 ```javascript
-var blinder = require('color-blind');
+import blinder from 'color-blind';
 blinder.protanopia('#42dead'); // result: "#d1c4a0"
 ```
-
 
 ## Color Blindness Table
 
@@ -35,7 +26,6 @@ blinder.protanopia('#42dead'); // result: "#d1c4a0"
 | **Anomalous Trichromat**<br/>*2 good cones, 1 bad* |Protanomaly<br/>*low red*           |Deuteranomaly<br/>*low green*|Tritanomaly<br/>*low blue*|
 | **Dichromat**<br/>*2 good cones, 1 blind*          |Protanopia<br/>*no red*             |Deuteranopia<br/>*no green*  |Tritanopia <br/>*no blue* |
 | **Monochromat**<br/>*1 good cone, 2 blind/bad*     |Achromatomaly<br />*almost no color*|Achromatopsia<br/>*no color* |                          |
-
 
 ## Documentation
 
@@ -159,20 +149,17 @@ blinder.achromatopsia("#42dead", true);
 // result: {"R":185.28855,"G":185.28855,"B":185.28855}
 ```
 
-
 ## Links
 
 - [Original Source](http://mudcu.be/sphere/js/Color.Blind.js)
 - [Color Blind / Daltonize Bookmarklet](http://daltonize.appspot.com/)
 - [Color Blind Bookmarklet](https://github.com/duhseekoh/Color-Blind)
 
-
 ## Release History
 
 #### v0.1.0 - Released June 21, 2014
 
 - initial release
-
 
 ## License
 
