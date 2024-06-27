@@ -1,8 +1,9 @@
 {
   "name": "color-blind-esm",
   "description": "Simulate color blindness by converting RGB hex codes",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/jorenbroekema/color-blind",
+  "type": "module",
   "author": {
     "name": "jorenbroekema",
     "email": "jorenbroekema@gmail.com"
